@@ -1,0 +1,5 @@
+Options -Indexes
+
+RewriteEngine On
+RewriteRule ^(.+)/$ controllers/$1.php
+RewriteRule ^$ controllers/index.php
